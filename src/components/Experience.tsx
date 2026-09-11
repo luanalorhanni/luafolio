@@ -16,10 +16,10 @@ export function Experience() {
               }`}
             />
             <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1">
-              <h3 className="text-2xl font-semibold tracking-tight">{job.company}</h3>
+              <h3 className="text-2xl font-semibold tracking-tight">{job.role}</h3>
               <span className="text-sm text-muted">{job.period}</span>
             </div>
-            <p className="mt-1 text-base text-muted">{job.role}</p>
+            <p className="mt-1 text-base text-muted">{job.company}</p>
             <ul className="mt-5 max-w-2xl space-y-2.5 text-base leading-relaxed">
               {job.bullets.map((b) => (
                 <li key={b} className="flex gap-3">
