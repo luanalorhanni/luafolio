@@ -219,7 +219,7 @@ const pt: Content = {
   ],
   experience: [
     {
-      company: 'Polen',
+      company: 'Polen — Solução e Valoração de Resíduos',
       role: 'Analista de Dados Pleno',
       period: 'jul/2025 – atual',
       bullets: [
@@ -232,7 +232,7 @@ const pt: Content = {
       ],
     },
     {
-      company: 'Prefeitura de São Luís — SEMIT',
+      company: 'prefeitura de São Luís — secretaria municipal de informação e tecnologia',
       role: 'Analista de Dados Júnior',
       period: 'jun/2024 – jul/2025',
       bullets: [
@@ -242,7 +242,7 @@ const pt: Content = {
       ],
     },
     {
-      company: 'ITERMA — Governo do Maranhão',
+      company: 'ITERMA — Instituto de Colonização e Terras do Maranhão',
       role: 'Assessora de Suporte Técnico de Sistemas',
       period: 'jul/2023 – abr/2024',
       bullets: [
@@ -461,7 +461,7 @@ const en: Content = {
   ],
   experience: [
     {
-      company: 'Polen',
+      company: 'Polen — Waste Solutions and Valuation',
       role: 'Data Analyst (mid-level)',
       period: 'Jul 2025 – present',
       bullets: [
@@ -474,7 +474,7 @@ const en: Content = {
       ],
     },
     {
-      company: 'São Luís City Hall — SEMIT',
+      company: 'são luís city hall — municipal department of information and technology',
       role: 'Junior Data Analyst',
       period: 'Jun 2024 – Jul 2025',
       bullets: [
@@ -484,7 +484,7 @@ const en: Content = {
       ],
     },
     {
-      company: 'ITERMA — Maranhão State Government',
+      company: 'ITERMA — maranhão land and settlement institute',
       role: 'Systems Technical Support Advisor',
       period: 'Jul 2023 – Apr 2024',
       bullets: ['Support and management of land-regularization systems.', 'Spreadsheet reports and dashboards for departments.'],
