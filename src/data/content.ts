@@ -165,7 +165,7 @@ const pt: Content = {
       text: 'Aberta a oportunidades em engenharia de dados, projetos e trocas de ideia sobre pipelines, modelagem e IA aplicada a dados.',
     },
     footer: { madeWith: 'Feito com React, TypeScript e Tailwind.' },
-    photoAlt: 'Luana Lorhanni sorrindo, de óculos e jaqueta preta, diante de um paredão de pedra',
+    photoAlt: 'Luana Lorhanni sorrindo, de óculos e camiseta preta, em fundo escuro',
   },
   profile: {
     name: 'Luana Lorhanni',
@@ -406,7 +406,7 @@ const en: Content = {
       text: 'Open to data engineering opportunities, projects and conversations about pipelines, modeling and AI applied to data.',
     },
     footer: { madeWith: 'Built with React, TypeScript and Tailwind.' },
-    photoAlt: 'Luana Lorhanni smiling, wearing glasses and a black jacket, in front of a rock wall',
+    photoAlt: 'Luana Lorhanni smiling, wearing glasses and a black t-shirt, against a dark background',
   },
   profile: {
     name: 'Luana Lorhanni',
