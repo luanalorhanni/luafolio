@@ -110,7 +110,7 @@ const pt: Content = {
   meta: {
     title: 'Luana Lorhanni | Dados & Engenharia de Dados',
     description:
-      'portfólio de luana lorhanni — analista de dados em transição para engenharia de dados. SQL, Python, BigQuery, GCP, Docker e pipelines de dados.',
+      'portfólio de luana lorhanni — engenheira de dados com experiência sólida em análise de dados. SQL, Python, BigQuery, GCP, Docker e pipelines de dados.',
   },
   ui: {
     nav: {
@@ -170,14 +170,15 @@ const pt: Content = {
   profile: {
     name: 'Luana Lorhanni',
     status: 'Entusiasta de Dados',
-    role: 'analista de dados em transição para engenharia de dados',
+    role: 'Engenheira de dados com experiência sólida em análise de dados',
     tagline: 'Construindo minha jornada na tecnologia',
     summary:
       'Construo pipelines, modelos de dados e automações que transformam regras de negócio em dados confiáveis em produção.',
   },
   about: [
+    'Minha jornada na tecnologia começou em 2019, no ensino médio técnico, com projetos de eletrônica e robótica programados em Python. Foi ali que descobri o fascínio por resolver problemas e automatizar processos com tecnologia, e esse interesse me trouxe até os dados.',
     'Trabalho com dados desde 2023, entre órgãos públicos e uma startup de logística reversa. Gosto do caminho inteiro: entender a regra de negócio, modelar, colocar em produção e garantir que continue certo depois.',
-    'Hoje trabalho com ingestão, transformação em camadas, orquestração e monitoramento de qualidade em um stack analítico no GCP, e mantenho os dashboards do Looker Studio que a empresa usa no dia a dia. Uso IA como ferramenta de trabalho diário, com agentes operando o repositório de dados.',
+    'Hoje em dia estou mais focada em engenharia de dados, com experiência em ingestão, transformação em camadas, orquestração e monitoramento de qualidade, usando SQL e Python com GCP, BigQuery, Dataform, Databricks, Airflow, PostgreSQL e Docker. Na visualização, trabalho com Looker Studio, Power BI e Metabase. Uso IA como ferramenta de trabalho diário, com Claude Code e agentes integrados via MCP.',
   ],
   facts: [
     { label: 'Formação', value: 'ciência e tecnologia, ênfase em engenharia da computação — UFMA (2022–2026)' },
@@ -189,12 +190,12 @@ const pt: Content = {
     {
       title: 'Pipelines e ingestão',
       text: 'Levo dados de bancos de produção e APIs para o warehouse, com captura contínua, versionamento e reconciliação.',
-      tools: ['SQL', 'Python', 'Dataform', 'Datastream', 'dlt', 'BigQuery'],
+      tools: ['SQL', 'Python', 'Airflow', 'Dataform', 'Datastream', 'dlt', 'BigQuery'],
     },
     {
       title: 'Modelagem de dados',
       text: 'Camadas bronze, silver e gold que traduzem regras de negócio em modelos claros, organizados por domínio.',
-      tools: ['Dataform', 'dbt', 'Modelagem dimensional', 'SQL avançado'],
+      tools: ['Dataform', 'Databricks', 'Modelagem dimensional', 'SQL avançado'],
     },
     {
       title: 'Qualidade e observabilidade',
@@ -221,7 +222,7 @@ const pt: Content = {
     {
       company: 'Polen — Solução e Valoração de Resíduos',
       role: 'Analista de Dados Pleno',
-      period: 'jul/2025 – atual',
+      period: 'jul/2025 – set/2026',
       bullets: [
         'Contribuí para a migração da ingestão do banco de produção para captura contínua (CDC), com reconciliação view a view.',
         'Trabalhei em projetos de reconstrução do warehouse em camadas bronze, silver e gold, com modelos organizados por domínio de negócio.',
@@ -254,12 +255,10 @@ const pt: Content = {
   projects: [
     {
       title: 'DragaCusto',
-      kind: 'Produto · dados + IA',
+      kind: 'Engenharia de dados · IA',
       description:
-        'Orçamentação de serviços de dragagem com agente de IA. Pipeline de 114 mil registros das bases públicas SINAPI e SICRO até o PostgreSQL, dashboard com curva ABC, BDI e exportação PDF/CSV.',
-      tags: ['PostgreSQL', 'Next.js', 'TypeScript', 'ETL', 'IA'],
-      url: 'https://github.com/luanalorhanni/dragacusto',
-      urlLabel: 'Ver no GitHub',
+        'Pipeline ETL que extrai, trata e carrega 114 mil registros das bases públicas de custo SINAPI e SICRO no PostgreSQL. Essa base alimenta um orçamentador de dragagem com agente de IA, curva ABC, cálculo de BDI e exportação PDF/CSV. Código privado.',
+      tags: ['ETL', 'PostgreSQL', 'SQL', 'TypeScript', 'Next.js', 'IA'],
       image: projectImages.dragacusto,
       cover: 'bars',
     },
@@ -352,7 +351,7 @@ const en: Content = {
   meta: {
     title: 'Luana Lorhanni | Data & Data Engineering',
     description:
-      "luana lorhanni's portfolio — data analyst moving into data engineering. SQL, Python, BigQuery, GCP, Docker and data pipelines.",
+      "luana lorhanni's portfolio — data engineer with solid experience in data analysis. SQL, Python, BigQuery, GCP, Docker and data pipelines.",
   },
   ui: {
     nav: {
@@ -412,14 +411,15 @@ const en: Content = {
   profile: {
     name: 'Luana Lorhanni',
     status: 'Data enthusiast',
-    role: 'data analyst moving into data engineering',
+    role: 'Data engineer with solid experience in data analysis',
     tagline: 'Building my journey in tech',
     summary:
       'I build pipelines, data models and automations that turn business rules into trustworthy data in production.',
   },
   about: [
+    'My journey in tech started in 2019, in technical high school, building electronics and robotics projects programmed in Python. That is where I found my fascination with solving problems and automating processes through technology, and that interest is what led me to data.',
     "I've worked with data since 2023, across public agencies and a reverse-logistics startup. I like the whole path: understanding the business rule, modeling it, shipping to production and making sure it stays right afterwards.",
-    'Today I work on ingestion, layered transformation, orchestration and quality monitoring in a GCP analytics stack, and I maintain the Looker Studio dashboards the company relies on every day. I use AI as a daily tool, with agents operating the data repository.',
+    "These days I'm mostly focused on data engineering, with hands-on experience in ingestion, layered transformation, orchestration and quality monitoring, using SQL and Python with GCP, BigQuery, Dataform, Databricks, Airflow, PostgreSQL and Docker. For visualization I work with Looker Studio, Power BI and Metabase. I use AI as a daily tool, with Claude Code and agents integrated through MCP.",
   ],
   facts: [
     { label: 'Degree', value: 'science and technology, computer engineering track — UFMA (2022–2026)' },
@@ -431,12 +431,12 @@ const en: Content = {
     {
       title: 'Pipelines and ingestion',
       text: 'I move data from production databases and APIs into the warehouse, with continuous capture, versioning and reconciliation.',
-      tools: ['SQL', 'Python', 'Dataform', 'Datastream', 'dlt', 'BigQuery'],
+      tools: ['SQL', 'Python', 'Airflow', 'Dataform', 'Datastream', 'dlt', 'BigQuery'],
     },
     {
       title: 'Data modeling',
       text: 'Bronze, silver and gold layers that translate business rules into clear models, organized by domain.',
-      tools: ['Dataform', 'dbt', 'Dimensional modeling', 'Advanced SQL'],
+      tools: ['Dataform', 'Databricks', 'Dimensional modeling', 'Advanced SQL'],
     },
     {
       title: 'Quality and observability',
@@ -463,7 +463,7 @@ const en: Content = {
     {
       company: 'Polen — Waste Solutions and Valuation',
       role: 'Data Analyst (mid-level)',
-      period: 'Jul 2025 – present',
+      period: 'Jul 2025 – Sep 2026',
       bullets: [
         'Contributed to migrating production database ingestion to continuous capture (CDC), with view-by-view reconciliation.',
         'Worked on rebuilding the warehouse in bronze, silver and gold layers, with models organized by business domain.',
@@ -493,12 +493,10 @@ const en: Content = {
   projects: [
     {
       title: 'DragaCusto',
-      kind: 'Product · data + AI',
+      kind: 'Data engineering · AI',
       description:
-        'Budgeting for dredging services with an AI agent. Pipeline of 114k records from the public SINAPI and SICRO cost databases into PostgreSQL, ABC-curve dashboard, overhead markup and PDF/CSV export.',
-      tags: ['PostgreSQL', 'Next.js', 'TypeScript', 'ETL', 'AI'],
-      url: 'https://github.com/luanalorhanni/dragacusto',
-      urlLabel: 'View on GitHub',
+        'ETL pipeline that extracts, cleans and loads 114k records from the public SINAPI and SICRO cost databases into PostgreSQL. That data powers a dredging budget tool with an AI agent, ABC curve, overhead (BDI) calculation and PDF/CSV export. Private code.',
+      tags: ['ETL', 'PostgreSQL', 'SQL', 'TypeScript', 'Next.js', 'AI'],
       image: projectImages.dragacusto,
       cover: 'bars',
     },
