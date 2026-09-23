@@ -108,7 +108,7 @@ const certUrls = {
 
 const pt: Content = {
   meta: {
-    title: 'Luana Lorhanni | Dados & Engenharia de Dados',
+    title: 'Luana Lorhanni | Engenheira de Dados',
     description:
       'portfólio de luana lorhanni — engenheira de dados com experiência sólida em análise de dados. SQL, Python, BigQuery, GCP, Docker e pipelines de dados.',
   },
@@ -349,7 +349,7 @@ const pt: Content = {
 
 const en: Content = {
   meta: {
-    title: 'Luana Lorhanni | Data & Data Engineering',
+    title: 'Luana Lorhanni | Data Engineer',
     description:
       "luana lorhanni's portfolio — data engineer with solid experience in data analysis. SQL, Python, BigQuery, GCP, Docker and data pipelines.",
   },
