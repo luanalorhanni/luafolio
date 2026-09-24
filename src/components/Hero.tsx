@@ -43,13 +43,13 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="relative mx-auto w-full max-w-md lg:max-w-none">
+        <div className="relative mx-auto w-full max-w-sm lg:mr-0 lg:max-w-md">
           <img
             src={links.photo}
             alt={t.ui.photoAlt}
-            width={1200}
-            height={1500}
-            className="photo aspect-[4/5] w-full rounded-3xl object-cover"
+            width={1140}
+            height={1140}
+            className="photo aspect-square w-full rounded-3xl object-cover"
             loading="eager"
             fetchPriority="high"
           />

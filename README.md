@@ -21,7 +21,7 @@ Saída em `dist/`. Deploy estático (Vercel, Netlify, GitHub Pages).
 
 Em `public/`:
 
-- `luana.jpg` — foto do hero (recorte 4:5, exibida em preto e branco via CSS).
+- `luana-perfil.jpg` — foto do hero (quadrada, exibida inteira e em preto e branco via CSS).
 - `projects/*.jpg` — prévias dos projetos (16:9, ~1400px de largura). Se o arquivo não existir, o card mostra uma capa gerada. Nomes esperados:
   - Já existem: `dragacusto.jpg`, `netflix-powerbi.jpg`, `leptospirose.jpg`, `ml-subplots.jpg`, `ambiente-metabase.jpg`, `inadimplencia.jpg`, `pizza-mais.jpg`.
   - Faltam (aparecem no hover do card): `ambiente-arquitetura.jpg` (diagrama da arquitetura GCP) e `ml-prophet.jpg` (gráfico de previsão com Prophet).

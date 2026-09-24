@@ -66,7 +66,7 @@ export const links = {
   github: 'https://github.com/luanalorhanni',
   githubUser: 'luanalorhanni',
   linkedin: 'https://linkedin.com/in/luanalorhanni',
-  photo: '/luana.jpg',
+  photo: '/luana-perfil.jpg',
 }
 
 const stack: StackGroup[] = [
