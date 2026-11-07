@@ -3,7 +3,7 @@ import { deepLower } from '../lowercase'
 export type Lang = 'pt' | 'en'
 
 export type Capability = { title: string; text: string; tools: string[] }
-export type Experience = { company: string; role: string; period: string; bullets: string[] }
+export type Experience = { company: string; role: string; period: string; bullets: string[]; tools?: string[] }
 export type Project = {
   title: string
   kind: string
@@ -142,7 +142,7 @@ const pt: Content = {
     },
     about: { title: 'Sobre' },
     work: { title: 'O que eu faço', lead: 'E com o que faço. Cada área com as ferramentas que uso nela.' },
-    experience: { title: 'Experiência', lead: 'Três anos entre setor público e startup.' },
+    experience: { title: 'Experiência', lead: 'Três anos entre setor público, startup e dados abertos.' },
     projects: {
       title: 'Projetos',
       lead: 'Pipelines, dashboards e modelos, do dado bruto à entrega. Dados públicos ou simulados.',
@@ -219,6 +219,20 @@ const pt: Content = {
     },
   ],
   experience: [
+    {
+      company: 'Base dos Dados',
+      role: 'Engenheira de Dados',
+      period: 'out/2026 – atual',
+      bullets: [
+        'Construo pipelines de ingestão e tratamento de dados públicos com Python, orquestrados no Prefect 3 e executados em Kubernetes (GKE).',
+        'Desenvolvo modelos de transformação em dbt e materializo as tabelas no BigQuery.',
+        'Implemento testes de qualidade em dbt e validações no tratamento para barrar cargas com dados inconsistentes.',
+        'Integro os pipelines à API de metadados (Django) para manter atualizadas a cobertura temporal e as descrições das tabelas.',
+        'Versiono o código no GitHub, com deploy por GitHub Actions e Docker.',
+        'Documento pipelines e processos da equipe de dados.',
+      ],
+      tools: ['Python', 'Prefect', 'dbt', 'BigQuery', 'GCP', 'Kubernetes (GKE)', 'Django', 'uv', 'Docker', 'Git', 'GitHub', 'GitHub Actions'],
+    },
     {
       company: 'Polen — Solução e Valoração de Resíduos',
       role: 'Analista de Dados Pleno',
@@ -383,7 +397,7 @@ const en: Content = {
     },
     about: { title: 'About' },
     work: { title: 'What I do', lead: 'And what I do it with. Each area with the tools I use there.' },
-    experience: { title: 'Experience', lead: 'Three years across public sector and a startup.' },
+    experience: { title: 'Experience', lead: 'Three years across public sector, a startup and open data.' },
     projects: {
       title: 'Projects',
       lead: 'Pipelines, dashboards and models, from raw rows to delivery. Public or simulated data.',
@@ -460,6 +474,20 @@ const en: Content = {
     },
   ],
   experience: [
+    {
+      company: 'Base dos Dados',
+      role: 'Data Engineer',
+      period: 'Oct 2026 – present',
+      bullets: [
+        'Build ingestion and processing pipelines for public data in Python, orchestrated with Prefect 3 and running on Kubernetes (GKE).',
+        'Develop transformation models in dbt and materialize the tables in BigQuery.',
+        'Implement dbt quality tests and processing validations to block loads with inconsistent data.',
+        'Integrate pipelines with the metadata API (Django) to keep table temporal coverage and descriptions up to date.',
+        'Version code on GitHub, with deployment via GitHub Actions and Docker.',
+        'Document pipelines and data team processes.',
+      ],
+      tools: ['Python', 'Prefect', 'dbt', 'BigQuery', 'GCP', 'Kubernetes (GKE)', 'Django', 'uv', 'Docker', 'Git', 'GitHub', 'GitHub Actions'],
+    },
     {
       company: 'Polen — Waste Solutions and Valuation',
       role: 'Data Analyst (mid-level)',
