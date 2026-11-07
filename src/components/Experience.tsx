@@ -1,5 +1,5 @@
 import { useLang } from '../lang'
-import { Section } from './Section'
+import { Chip, Section } from './Section'
 
 export function Experience() {
   const { t } = useLang()
@@ -28,6 +28,13 @@ export function Experience() {
                 </li>
               ))}
             </ul>
+            {job.tools && (
+              <div className="mt-5 flex flex-wrap gap-2">
+                {job.tools.map((tool) => (
+                  <Chip key={tool}>{tool}</Chip>
+                ))}
+              </div>
+            )}
           </li>
         ))}
       </ol>
