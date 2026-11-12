@@ -177,7 +177,7 @@ const pt: Content = {
   },
   about: [
     'Minha jornada na tecnologia começou em 2019, no ensino médio técnico, com projetos de eletrônica e robótica programados em Python. Foi ali que descobri o fascínio por resolver problemas e automatizar processos com tecnologia, e esse interesse me trouxe até os dados.',
-    'Trabalho com dados desde 2023, comecei automatizando planilhas e hoje desenvolvo o caminho inteiro para gerar informação: entender a regra de negócio, modelar, colocar em produção e garantir que continue certo em produção.',
+    'Trabalho com dados desde 2023, comecei automatizando planilhas e hoje desenvolvo o caminho inteiro para gerar informação: entender a regra de negócio, modelar, colocar em produção e garantir que continue certo.',
     'Hoje em dia estou mais focada em engenharia de dados, com experiência em ingestão, transformação em camadas, orquestração e monitoramento de qualidade, usando SQL e Python com GCP, BigQuery, Dataform, Databricks, Airflow, PostgreSQL e Docker. Na visualização, trabalho com Looker Studio, Power BI e Metabase. Uso IA como ferramenta de trabalho diário, com Claude Code e agentes integrados via MCP.',
   ],
   facts: [
@@ -432,7 +432,7 @@ const en: Content = {
   },
   about: [
     'My journey in tech started in 2019, in technical high school, building electronics and robotics projects programmed in Python. That is where I found my fascination with solving problems and automating processes through technology, and that interest is what led me to data.',
-    "I've worked with data since 2023, across public agencies and a reverse-logistics startup. I like the whole path: understanding the business rule, modeling it, shipping to production and making sure it stays right afterwards.",
+    "I've been working with data since 2023. I started by automating spreadsheets, and today I handle the entire process of generating information: understanding the business rules, building models, deploying them into production, and ensuring they continue to work correctly.",
     "These days I'm mostly focused on data engineering, with hands-on experience in ingestion, layered transformation, orchestration and quality monitoring, using SQL and Python with GCP, BigQuery, Dataform, Databricks, Airflow, PostgreSQL and Docker. For visualization I work with Looker Studio, Power BI and Metabase. I use AI as a daily tool, with Claude Code and agents integrated through MCP.",
   ],
   facts: [
